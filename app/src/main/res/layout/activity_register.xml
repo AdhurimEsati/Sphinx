@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sphinx_background"
+    tools:context="com.example.noli.sphinx.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/usernameTF"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintLeft_toLeftOf="@+id/usernameTF"
+        app:layout_constraintRight_toRightOf="@+id/usernameTF"
+        app:layout_constraintTop_toTopOf="@+id/usernameTF"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/avatar" />
+
+    <EditText
+        android:id="@+id/confirmPassTF"
+        android:layout_width="312dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/password_txtbox"
+        android:ems="10"
+        android:textColorHint="@android:color/white"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingLeft="60dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passTF" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/confirmPassTF"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintLeft_toLeftOf="@+id/confirmPassTF"
+        app:layout_constraintRight_toRightOf="@+id/confirmPassTF"
+        app:layout_constraintTop_toTopOf="@+id/confirmPassTF"
+        app:layout_constraintVertical_bias="0.583"
+        app:srcCompat="@drawable/password_logo" />
+
+    <EditText
+        android:id="@+id/passTF"
+        android:layout_width="312dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/password_txtbox"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="@android:color/white"
+        android:inputType="textPassword"
+        android:paddingLeft="60dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTF2" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/passTF"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintLeft_toLeftOf="@+id/passTF"
+        app:layout_constraintRight_toRightOf="@+id/passTF"
+        app:layout_constraintTop_toTopOf="@+id/passTF"
+        app:layout_constraintVertical_bias="0.416"
+        app:srcCompat="@drawable/password_logo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="165dp"
+        android:layout_height="231dp"
+        android:layout_marginBottom="311dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073"
+        app:srcCompat="@drawable/sphinx_logo" />
+
+    <EditText
+        android:id="@+id/usernameTF"
+        android:layout_width="312dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/email_txtbox"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="60dp"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmPassTF"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/emailTF2"
+        android:layout_width="312dp"
+        android:layout_height="53dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/email_txtbox"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="60dp"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/emailTF2"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintLeft_toLeftOf="@+id/emailTF2"
+        app:layout_constraintRight_toRightOf="@+id/emailTF2"
+        app:layout_constraintTop_toTopOf="@+id/emailTF2"
+        app:layout_constraintVertical_bias="0.416"
+        app:srcCompat="@drawable/email_logo" />
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="220dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/signin_btn"
+        android:text="Sign up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameTF"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>
